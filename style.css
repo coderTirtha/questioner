@@ -1,0 +1,243 @@
+.tirtha {
+    background-color: brown;
+    text-align: center;
+    font-size: 50px;
+    font-family: inherit;
+}
+.search-box {
+    position: absolute;
+    top: auto;
+    left: auto;
+    height: 50px;
+    border-radius: 40px;
+    padding: 5px;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: white;
+}
+.search-btn {
+    background-color: aquamarine;
+    float: right;
+    width: 45px;
+    height: 39px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    padding-top: 9px;
+}
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0%;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 240px;
+
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+.sidebar {
+    position: fixed;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: brown;
+    transition: all .5s ease;
+}
+.sidebar header {
+    font-size: 22px;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 70px;
+    background: brown;
+    user-select: none;
+}
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: whitesmoke;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid black;
+    transition: 0.4s;
+}
+ul li:hover a {
+    padding-left: 50px;
+}
+.sidebar ul a i {
+    margin-right: 16px;
+}
+#check {
+    display: none;
+}
+label #btn, label #cancel {
+    position: absolute;
+    cursor: pointer;
+    background: brown;
+    border-radius: 3px;
+}
+label #btn {
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all .5s;
+}
+label #cancel {
+    z-index: 1111;
+    left: -195px;
+    top: 18px;
+    font-size: 30px;
+    color: blue;
+    padding: 4px 9px;
+    transition: all .5s ease;
+}
+#check:checked ~ .sidebar {
+    left: 0;
+}
+#check:checked ~ label #btn {
+    left: 250px;
+    opacity: 0;
+    pointer-events: none;
+}
+#check:checked ~ label #cancel {
+    left: 195px;
+}
+#check:checked ~ section {
+    margin-left: 250px;
+}
+section {
+    background: url("bg.jpeg.jpg") no repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: all .5s;
+}
+.bg {
+    background: url("bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    transition: all .5s;
+    text-align: center;
+    text-shadow: 50px;
+    padding-top: 380px;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all .5s ease;
+}
+.signin {
+    padding-left: 45%;
+    font-size: 30px;
+    background-color: goldenrod;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.social-menu ul {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    padding: 0%;
+    margin: 0%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    padding-top: 9.7%;
+    padding-left: 2%;
+}
+.social-menu ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+.social-menu ul li .fa {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: aliceblue;
+}
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    text-align: center;
+    transition: .6s;
+}
+.social-menu ul li .fas {
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: aliceblue;
+}
+.marq {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: ease-in-out;
+    color: darkblue;
+    text-shadow: 50px;
+}
+.perfect {
+    background-color: brown;
+}
+.bg1 {
+    background: url("bg1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.side-things {
+    float: left;
+    width: 270px;
+    height: 50%;
+}
+.container {
+    padding-left: 5%;
+    display: inline-block;
+}
+.body {
+    font-family: sans-serif;
+    color: black;
+    font-size: large;
+    padding-top: 1px;
+    font-size: 36px;
+}
+.primary-btn {
+    color: white;
+    background-color: #8845f4;
+    padding: 15px 45px 15 px 45px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 100px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.btn {
+    padding-left: 270px;
+}
+.side-things-1 {
+    float: right;
+    width: 300px;
+    height: 40%;
+}

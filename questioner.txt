@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/042b72ee02.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <h2 class="tirtha">
+        <p align="left">
+            Questioner
+        </p>
+        <p align="left">
+            <button>
+                Home
+            </button>
+            <button>
+                File
+            </button>
+            <button>
+                Menu
+            </button>
+            <button>
+                Images
+            </button>
+            <button>
+                Votes
+            </button>
+            <button>
+                Create a question
+            </button>
+            <button>
+                More
+            </button>
+        </p>
+        <input type="checkbox" id="check">
+        <label for="check">
+            <i class="fas fa-bars" id="btn"></i>
+            <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <div class="sidebar">
+            <header>
+                My App
+            </header>
+            <ul>
+                <li><a href="#"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+                <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
+                <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
+                <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
+                <li><a href="#"><i class="fas fa-question-circle"></i>About</a></li>
+                <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+                <li><a href="#"><i class="far fa-envelope"></i>Contact</a></li>
+            </ul>
+        </div>
+    </h2>
+        <div style="padding-left: 600px;" class="search-box">
+            <input class="search-text" type="text" name="" placeholder="Type here to search">
+            <a class="search-btn" href="#">
+                <i class="fas fa-search"></i>
+            </a>
+        </div>
+    <div style="margin-top: 250px; margin-left: 550px; margin-right: 500px;">
+        <p align="center">
+            <form>
+              Username:
+              <input type="text" placeholder="username"><br>
+              Password:
+              <input type="password" placeholder="passsword"><br>
+              <div style="padding-top: 5px; padding-left: 93px; padding-bottom: 5px;">
+                  <input type="button" value="Sign In">
+              </div>
+              <div style="padding-left: 110px;">
+                Or,
+              </div>
+              <div style="padding-top: 5px; padding-left: 75px;">
+                <a href="student information.html">
+                    <input type="button" value="Add a Account">
+                </a>
+              </div>
+            </form>
+        </p>
+    </div>
+</body>
